@@ -90,9 +90,9 @@ class MapWindow(QMainWindow):
             if states.latitude is not None and states.longitude is not None:
                 self.states_list.append((states.icao24, states.latitude, states.longitude))
 
-        QTimer.singleShot(0, self.updating_map)
+        QTimer.singleShot(0, self.update_map_progress)
 
-    def updating_map(self):
+    def update_map_progress(self):
         self.btn_enable_disable(1)
         self.pbar.setRange(0, 100)
 
