@@ -3,7 +3,7 @@ A simple Python Project using the OpenSky Network API (https://openskynetwork.gi
  
 # Installation
 1. Clone the repository:
-- git clone https://github.com/xdevnap/flight_tracker.git
+- git clone https://github.com/crescentodev/flight_tracker.git
 - cd flight_tracker
 
 2. Install dependencies:
